@@ -50,7 +50,9 @@
 
 ## Sample frontend project
 
-See 
+Head to [prerequisites](https://github.com/majodev/aaa-web-workshops/blob/master/web_engineering_prerequisites.md) first.
+
+See [aaa-frontend-demo](https://github.com/majodev/aaa-frontend-demo) and [this guideline](https://github.com/majodev/aaa-web-workshops/blob/master/web_engineering_aaa_frontend_demo.md) (documents each commit).
 
 ## Complementary ressources
 
