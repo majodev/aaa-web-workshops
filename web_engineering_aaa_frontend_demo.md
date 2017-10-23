@@ -17,6 +17,9 @@ yarn
 # open VSCode (eventually disable "files.autoSave": "afterDelay" in your VSCode config)
 code .
 
+# start the dev-server
+yarn start
+
 # let's get familiar with the project...
 ```
 
@@ -249,7 +252,7 @@ Lets style the beer detail!
 - Let's allow to add a simple multiline comment for a beer and finally submit that value to the store
 - [Uncontrolled Components](https://reactjs.org/docs/uncontrolled-components.html) vs [Controlled Components](https://reactjs.org/docs/forms.html#controlled-components)
 - [`mui.TextField`](http://www.material-ui.com/#/components/text-field) — see *Controlled Example*
--  `(e: React.ChangeEvent<{ value: string }>) => {...}`
+- `(e: React.ChangeEvent<{ value: string }>) => {...}`
 
 #### 11.2 Connect to state
 
@@ -272,8 +275,8 @@ Lets style the beer detail!
 
 *  [`PATCH /app/v1/user/profile `](https://aaa-backend-demo-dev-public.allaboutapps.at/demo/documentation#!/app%2Fv1%2Fuser/patchAppV1UserProfile) allows to set save any `JSON ` `data`  on the user profile
   * your likes / comments count
-* Push local changes to the server if we are authenticated...
-* We won't get it again (no synchronization will take place, local state will always overwrite user server state)
+*  Push local changes to the server if we are authenticated...
+*  We won't get it again (no synchronization will take place, local state will always overwrite user server state)
   * Could be easily done while rehydration, same as getting the user profile (testing the connection) in the `authState`
 
 ### 14. Show global liked count and other user comments
