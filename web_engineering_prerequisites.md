@@ -39,7 +39,7 @@ In your preferred shell, do the following:
 
 ```bash
 # Check if installation of nvm has worked as expected...
-nvm version
+nvm --version
 # 1.1.5 (windows) or v0.33.x (macOS, linux)
 
 # Check for already installed Node.js versions
@@ -47,11 +47,14 @@ nvm list
 # No installations recognized.
 
 # Install Node.js (the current LTS version)
-nvm install v6.11.4
+nvm install lts
 # Node.js and npm are now installed!
 
+# Verify the installed version
+nvm list
+
 # Setup your ENV to use the just installed version by default
-nvm use 6.11.4
+nvm use 8,.9.3
 
 # node and npm in their respective versions are now in your PATH (in all shells)!
 # Recheck if everything works (outputs version of node and npm)
