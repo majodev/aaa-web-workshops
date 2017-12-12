@@ -54,7 +54,7 @@ nvm install lts
 nvm list
 
 # Setup your ENV to use the just installed version by default
-nvm use 8,.9.3
+nvm use 8.9.3
 
 # node and npm in their respective versions are now in your PATH (in all shells)!
 # Recheck if everything works (outputs version of node and npm)
