@@ -90,7 +90,8 @@ Feel free to open the `test-app` directory now with VS Code to mess around with 
 
 ### VS Code Setup
 
-* Install the recommended extensions for the project.
+* Install the recommended extensions for the project 
+* Switch to use the workspace version of the TypeScript compiler (part of the devDependencies of the project). See [Using the workspace version of TypeScript](https://code.visualstudio.com/docs/languages/typescript#_using-the-workspace-version-of-typescript).
 * *(optional)* At aaa we use the following default settings for VS Code (accessed via Code/File —> Settings —> Settings):
 
 ```json
