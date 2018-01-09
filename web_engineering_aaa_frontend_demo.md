@@ -89,6 +89,10 @@ All the following sections are bound to specific commits e.g. `fc9e950098e735d8a
 * [Casting with TypeScript](http://acdcjunior.github.io/typescript-cast-object-to-other-type-or-instanceof.html): We can opt out of compile time safetly for i18n key anytime. This might be useful for mapping paths to i18n keys
 * [react-router `location`](https://reacttraining.com/react-router/web/api/location) inject via `withRouter` and `Partial<RouteComponentProps<any>>`
 * This works with [TypeScript Generics](https://www.typescriptlang.org/docs/handbook/generics.html) under the hood
+  * `/` —> `path.home`
+  * `/beers` —> `path.beers`
+  * `/anything` —> `path.anything`
+  * `/anything/anotherthing` —> `path.anything.anotherthing`
 
 ### 6. Let's have some beers!
 
@@ -105,7 +109,7 @@ All the following sections are bound to specific commits e.g. `fc9e950098e735d8a
 * [json2ts](http://json2ts.com/) to get the `IBeer` and child [TypeScript interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html).
 * Install [lodash](https://lodash.com/docs) `yarn add lodash @types/lodash` (map over a)
 * Let's use [mui.List](http://www.material-ui.com/#/components/list) to show `name`, `tagline` and `description` of a `Beer`
-  * [Promise](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+  * [Promise](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise) vs http://callbackhell.com/
   * [Async Await](https://basarat.gitbooks.io/typescript/docs/async-await.html)
 
 #### 6.2 Implement a beer detail route
