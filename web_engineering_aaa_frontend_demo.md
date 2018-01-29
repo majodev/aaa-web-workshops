@@ -298,6 +298,15 @@ type IBeersInfo = {
 ```
 
 
+### 15. Deploy to GitHub Pages (optional)
 
+Let's try out an easy way to host your static bundle for free (requires a working GitHub account).
+
+[Reference Docs](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages)
+
+TL;DR:
+* Install the `gh-pages` package through yarn: `yarn add --dev gh-pages`.
+* Add a `homepage` property to `package.json`. See [here](https://github.com/majodev/aaa-frontend-demo/commit/1c9f11834229a580c1275a1d2980e2eb03db90a0).   
+* Add scripts for `predeploy` and `deploy` in your `package.json`. See [here](https://github.com/majodev/aaa-frontend-demo/commit/4128d434fe706f1e1f90630ee2447de53f7170b3).  
 
 
